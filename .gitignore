@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# JavaScript dependencies and build output
+client/node_modules/
+client/dist/
+client/*.tsbuildinfo
+client/vite.config.js
+client/vite.config.d.ts
+
+# Python environments and caches
+server/.venv/
+server/.venv-uv-broken/
+server/.uv-cache/
+server/.uv-python/
+server/**/__pycache__/
+server/**/*.py[cod]
+server/.pytest_cache/
+
+# Runtime and generated files
+server/media/
+server/staticfiles/
+
+# Preserved nested repository metadata
+client/.git-history/
+server/.git-history/
+
+# Local OS files
+.DS_Store
+Thumbs.db
